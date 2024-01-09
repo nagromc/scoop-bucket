@@ -35,11 +35,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.scootersoftware.com/files/BCompare-5.0.0.$version.exe"
+                "url": "https://www.scootersoftware.com/files/BCompare-5.0.0.$version.exe",
+                "hash": {
+                    "url": "$url.sha256"
+                }
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }

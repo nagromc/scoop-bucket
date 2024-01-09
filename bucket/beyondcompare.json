@@ -1,0 +1,45 @@
+{
+    "version": "5.0.0.28643",
+    "description": "Tool to compare, merge, and synchronize data",
+    "homepage": "https://www.scootersoftware.com/beta",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.scootersoftware.com/files/BCompare-5.0.0.28643.exe",
+            "hash": "298cd6bb458a9cb6aa281c42859a94937d369ea73bb99a38213722301da80113"
+        }
+    },
+    "installer": {
+        "args": [
+            "/PORTABLE",
+            "/VERYSILENT",
+            "/DIR=$dir",
+            "/DISABLEUPDATES"
+        ]
+    },
+    "bin": [
+        "BComp.com",
+        "BComp.exe",
+        "BCompare.exe"
+    ],
+    "shortcuts": [
+        [
+            "BCompare.exe",
+            "Beyond Compare 5 Beta"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.scootersoftware.com/beta/download",
+        "regex": "BCompare-([\\d.]+)\\.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.scootersoftware.com/files/BCompare-5.0.0.$version.exe"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

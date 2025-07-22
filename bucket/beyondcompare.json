@@ -1,12 +1,12 @@
 {
-    "version": "5.1.0.31016",
+    "version": "5.1.1.31157",
     "description": "Tool to compare, merge, and synchronize data",
     "homepage": "https://www.scootersoftware.com",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.scootersoftware.com/files/BCompare-5.1.0.31016.exe",
-            "hash": "d901adc44234ff8347874b3bdf409bd3969338282c6e2074142707c0eb892341"
+            "url": "https://www.scootersoftware.com/files/BCompare-5.1.1.31157.exe",
+            "hash": "695562e166339c8748d87342108c7c631995c192115dd0c102661d4c749f8e6a"
         }
     },
     "installer": {
